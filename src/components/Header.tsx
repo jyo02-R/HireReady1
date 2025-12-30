@@ -22,7 +22,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="font-heading font-bold text-xl text-secondary">
-            PP.
+            HireReady
           </Link>
 
           {/* Desktop Navigation */}
