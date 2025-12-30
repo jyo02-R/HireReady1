@@ -175,7 +175,9 @@ export default function HomePage() {
           </Reveal>
 
           <Reveal delay={200}>
-
+            <h1 className="font-heading text-6xl lg:text-8xl font-bold text-secondary mb-6 leading-tight">
+              Placement <span className="text-primary">Prep</span>
+            </h1>
           </Reveal>
 
           <Reveal delay={300}>
