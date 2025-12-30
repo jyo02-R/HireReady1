@@ -156,17 +156,15 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-background text-secondary font-paragraph overflow-clip selection:bg-primary selection:text-white">
       <Header />
-      
       {/* Scroll Progress Indicator */}
       <motion.div
         className="fixed top-0 left-0 right-0 h-1 bg-primary origin-left z-50"
         style={{ scaleX }}
       />
-
       {/* HERO SECTION */}
       <section className="relative w-full max-w-[120rem] mx-auto min-h-[90vh] flex flex-col lg:flex-row border-b border-gray-100">
         {/* Left Content */}
-        <div className="w-full lg:w-1/2 flex flex-col justify-center px-6 lg:px-20 py-20 lg:py-0 relative z-10 bg-background">
+        <div className="w-full lg:w-1/2 flex flex-col justify-center px-6 lg:px-20 py-20 lg:py-0 relative z-10 bg-background shadow-[inset_0px_0px_4px_0px_#bfbfbf]">
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-transparent opacity-20" />
           
           <Reveal delay={100}>
@@ -177,10 +175,7 @@ export default function HomePage() {
           </Reveal>
 
           <Reveal delay={200}>
-            <h1 className="font-heading text-6xl lg:text-8xl font-black text-secondary mb-6 leading-[0.9] tracking-tight">
-              Jay Reed <br />
-              <span className="text-primary">Digital</span>
-            </h1>
+
           </Reveal>
 
           <Reveal delay={300}>
@@ -235,7 +230,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* TICKER SECTION */}
       <div className="w-full bg-secondary text-white py-4 overflow-hidden border-y border-gray-800">
         <div className="flex whitespace-nowrap animate-marquee">
@@ -262,7 +256,6 @@ export default function HomePage() {
           }
         `}</style>
       </div>
-
       {/* FEATURES GRID SECTION */}
       <section className="max-w-[120rem] mx-auto px-6 lg:px-20 py-32 bg-background relative">
         {/* Background Grid Pattern */}
@@ -317,7 +310,6 @@ export default function HomePage() {
           ))}
         </div>
       </section>
-
       {/* STICKY PROCESS SECTION */}
       <section className="bg-backgrounddark text-white py-32 relative overflow-hidden">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-20">
@@ -386,7 +378,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* STATS SECTION */}
       <section className="py-24 bg-primary text-white">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-20">
@@ -404,7 +395,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* LARGE CTA SECTION */}
       <section className="py-32 px-6 lg:px-20 max-w-[120rem] mx-auto">
         <div className="bg-gray-50 rounded-3xl p-12 lg:p-24 text-center relative overflow-hidden">
@@ -443,7 +433,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       <Footer />
     </div>
   );
